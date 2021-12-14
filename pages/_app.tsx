@@ -1,3 +1,4 @@
+import Infobar from '../components/Infobar'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -5,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   <div className='grid grid-cols-12 gap-6 px-5 lg:px-48 my-14'>
 
     <div className='col-span-12 p-4 text-center bg-white rounded-sm lg:col-span-3'>
-      Infobar
+      <Infobar />
     </div>
     
     <div className='col-span-12 bg-white rounded-sm lg:col-span-9'>
