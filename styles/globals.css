@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/** //USE TAILWIND FOR CSS. THIS IS TEMPORARY */
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
