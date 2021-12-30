@@ -9,7 +9,11 @@ module.exports = {
     fontFamily: {
       rock: ['Rock Salt', 'serif']
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'trees': "url('/background.jpg')"
+      }
+    },
   },
   variants: {
     extend: {},
