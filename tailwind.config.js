@@ -6,11 +6,10 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      fontFamily: {
-        'rock': 'Rock Salt',
-      }
+    fontFamily: {
+      rock: ['Rock Salt', 'serif']
     },
+    extend: {},
   },
   variants: {
     extend: {},

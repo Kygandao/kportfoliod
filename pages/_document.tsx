@@ -6,10 +6,10 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet" />
         </Head>
-        <body>
+        <body className='bg-gradient-to-r from-gray-900 to-green-900'>
           <Main />
           <NextScript />
         </body>
