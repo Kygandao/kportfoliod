@@ -1,4 +1,5 @@
 import Infobar from '../components/Infobar'
+import Navbar from '../components/Navbar'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -9,7 +10,8 @@ function MyApp({ Component, pageProps }) {
       <Infobar />
     </div>
     
-    <div className='col-span-12 bg-gray-200 rounded-sm lg:col-span-9'>
+    <div className='flex flex-col col-span-12 bg-gray-200 rounded-sm lg:col-span-9'>
+      <Navbar />
       <Component {...pageProps} />
     </div>
     

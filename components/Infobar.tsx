@@ -23,8 +23,8 @@ const Infobar = () => {
                 <span className='mr-1'>Kygan</span>
                 <span className='text-green-800'>Dao</span>
             </h1>
-            <p className='px-2 py-1 my-3 bg-gray-300 rounded-xl text-sm'>Web Developer</p>
-            <a href='' download='nameOfFile' className='flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-xl text-sm'><IoIosPaper className='w-4' />Download Resume</a>
+            <p className='px-2 py-1 my-3 text-sm bg-gray-300 rounded-xl'>Web Developer</p>
+            <a href='' download='nameOfFile' className='flex items-center justify-center px-2 py-1 my-3 text-sm bg-gray-300 rounded-xl'><IoIosPaper className='w-4' />Download Resume</a>
             
             <div className='flex w-9/12 mx-auto my-5 text-green-800 justify-evenly md:w-full'>
                 <a href=''><AiOutlineGithub className='w-10 h-10 cursor-pointer' /></a>
@@ -32,7 +32,7 @@ const Infobar = () => {
             </div>
             
             {/* LOCATION */}
-            <div className='my-5 py-4 bg-gray-200' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
+            <div className='py-4 my-5 bg-gray-200' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
                 <div className='flex items-center justify-center'>
                     <MdLocationOn />
                     <span className='px-2 text-sm'>Portland, Oregon</span>
@@ -41,12 +41,13 @@ const Infobar = () => {
                 <p className='my-1 text-sm'>503.440.8672</p>
             </div>
             {/*click to open system email */}
-            <button className='bg-green-800 w-8/12 rounded-xl py-1 px-3 text-white my-1' onClick={sendEmail}>Email Me</button>
-            <button className='bg-green-800 w-8/12 rounded-xl py-1 px-3 text-white my-1'>Toggle Theme</button>
+            <button className='w-8/12 px-3 py-1 my-1 text-white bg-green-800 rounded-xl' onClick={sendEmail}>Email Me</button>
+            <button className='w-8/12 px-3 py-1 my-1 text-white bg-green-800 rounded-xl'>Toggle Theme</button>
         </div>
     )
 }
 
 export default Infobar
 
-//TODO: CREATE TOGGLE THEME BUTTON FUNCTIONALITY
+//TODO: CREATE TOGGLE THEME BUTTON FUNCTIONALITY??
+
