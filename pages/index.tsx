@@ -1,21 +1,23 @@
 import { GetServerSidePropsContext, GetStaticPathsContext, GetStaticPropsContext } from 'next'
-import ServiceCard from '../components/ServiceCard'
+import OfferCard from '../components/OfferCard'
 import { services } from '../data'
 
 const index = () => {
 
   return (
-    <div>
-      <h5>Highly motivated, knowledgeable, versatile, and continually
+    <div className='flex flex-col px-6 pt-1'>
+      <h5 className='my-3 font-medium'>Highly motivated, knowledgeable, versatile, and continually
           improving Full Stack Developer dedicated to practicing Agile
           Methodologies to develop high quality applications.
       </h5>
-      <div>
-        <h6>What I Offer</h6>
-        <div>
+      <div className='p-4 mt-5 bg-gray-300' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
+        <h6 className='my-3 text-lg font-semibold text-green-900'>What I Offer</h6>
+        <div className='grid gap-5 lg:grid-cols-2'>
           {
             services.map(service => (
-              <ServiceCard service={service} />
+              <div className='bg-gray-200 rounded-md lg:col-span-1'>
+                <OfferCard service={service} />
+              </div>
             ))
           }
         </div>
@@ -26,7 +28,7 @@ const index = () => {
 
 export default index
 
-//AS REFERENCE
+//AS REFERENCE FOR DATA CALL
 
 //getServerSideProps
 

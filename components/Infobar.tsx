@@ -19,7 +19,7 @@ const Infobar = () => {
             priority
             className='mx-auto rounded-full'
             />
-            <h1 className='my-3 tracking-wider lg:text-xl font-rock md:text-2xl sm:text-2xl'>
+            <h1 className='my-3 lg:text-xl font-rock md:text-2xl sm:text-2xl'>
                 <span className='mr-1'>Kygan</span>
                 <span className='text-green-900'>Dao</span>
             </h1>
@@ -32,7 +32,7 @@ const Infobar = () => {
             </div>
             
             {/* LOCATION */}
-            <div className='py-4 my-5 bg-gray-300' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
+            <div className='py-4 my-5 bg-gray-300' style={{marginLeft:'-.5rem', marginRight:'-.5rem'}}>
                 <div className='flex items-center justify-center'>
                     <MdLocationOn />
                     <span className='px-2 text-sm'>Portland, Oregon</span>

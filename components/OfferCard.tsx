@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react"
 import { IOffer } from "../type"
 
-const ServiceCard:FunctionComponent<{ service: IOffer }> = ({service:{title, about, Icon}}) => {
+const OfferCard:FunctionComponent<{ service: IOffer }> = ({service:{title, about, Icon}}) => {
     return (
         <div>
             <Icon />
@@ -13,4 +13,4 @@ const ServiceCard:FunctionComponent<{ service: IOffer }> = ({service:{title, abo
     )
 }
 
-export default ServiceCard
+export default OfferCard
