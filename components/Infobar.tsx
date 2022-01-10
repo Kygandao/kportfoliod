@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
 import { MdLocationOn } from 'react-icons/md'
 import { AiOutlinePaperClip } from 'react-icons/ai'
-import { IoIosPaper } from 'react-icons/Io'
 
 const Infobar = () => {
 
@@ -51,3 +50,5 @@ const Infobar = () => {
 export default Infobar
 
 //TODO: CREATE TOGGLE THEME BUTTON FUNCTIONALITY??
+
+
