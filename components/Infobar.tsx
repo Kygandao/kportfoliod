@@ -19,7 +19,7 @@ const Infobar = () => {
             priority
             className='mx-auto rounded-full'
             />
-            <h1 className='my-3 lg:text-xl font-rock md:text-2xl sm:text-2xl'>
+            <h1 className='flex items-center justify-center my-3 lg:text-2xl font-rock md:text-2xl'>
                 <span className='mr-1'>Kygan</span>
                 <span className='text-green-900'>Dao</span>
             </h1>

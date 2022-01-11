@@ -2,12 +2,18 @@ import { FunctionComponent } from "react"
 import { IOffer } from "../type"
 
 const OfferCard:FunctionComponent<{ service: IOffer }> = ({service:{title, about, Icon}}) => {
+
+    const createMarkup = () => {
+        return {
+            __html:about
+        }
+    }
     return (
-        <div>
-            <Icon />
+        <div className='flex items-center p-2 space-x-5'>
+            <Icon className='w-12 h-12 text-green-900'/>
             <div>
-                <h4>{title}</h4>
-                <p>{about}</p>
+                <h4 className='font-semibold'>{title}</h4>
+                <p dangerouslySetInnerHTML={createMarkup()} className='text-sm'/>
             </div>
         </div>
     )
