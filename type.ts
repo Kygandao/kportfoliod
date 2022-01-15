@@ -5,3 +5,9 @@ export interface IOffer{
     about: string,
     Icon: IconType
 }
+
+export interface ISkills{
+    name: string,
+    level: string,
+    Icon: IconType
+}

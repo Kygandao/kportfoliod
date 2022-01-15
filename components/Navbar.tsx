@@ -28,7 +28,7 @@ const Navbar = () => {
     useEffect(() => {
         if(pathname === '/')setActiveNav('About Me')
         if(pathname === '/projects')setActiveNav('Projects')
-        if(pathname === '/skills')setActiveNav('Skills')
+        if(pathname === '/summary')setActiveNav('Summary')
     }, [])
     
     return (
@@ -48,8 +48,8 @@ const Navbar = () => {
                 <NavItem 
                     activeNav={activeNav} 
                     setActiveNav={setActiveNav} 
-                    name='Skills' 
-                    route='/skills' />
+                    name='Summary' 
+                    route='/summary' />
             </div>
         </div>
     )
