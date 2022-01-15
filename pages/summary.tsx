@@ -1,5 +1,5 @@
 import Bar from "../components/Bar"
-import { languages } from "../data"
+import { languages, tools } from "../data"
 
 const summary = () => {
     return (
@@ -28,12 +28,22 @@ const summary = () => {
             </div>
 
             <div className='grid gap-5 md:grid-cols-2'>
-                <div id='tools'>
+                <div id='languages'>
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock'>Languages & Frameworks</h5>
                     <div className='my-2'>
                         {
                             languages.map(language => (
                                 <Bar data={language} key={language.name} />
+                            ))
+                        }
+                    </div>
+                </div>
+                <div id='tools'>
+                <h5 className='my-2 text-lg font-semibold text-green-900 font-rock'>Tools & Software</h5>
+                    <div className='my-2'>
+                        {
+                            tools.map(tool => (
+                                <Bar data={tool} key={tool.name} />
                             ))
                         }
                     </div>
