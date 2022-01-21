@@ -57,5 +57,4 @@ const Infobar = () => {
 
 export default Infobar
 
-//TODO: CREATE TOGGLE THEME BUTTON FUNCTIONALITY??
 
