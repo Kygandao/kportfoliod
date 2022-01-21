@@ -32,7 +32,7 @@ const Infobar = () => {
                 <span className='text-green-900 dark:text-green-700'>Dao</span>
             </h1>
             <p className='px-2 py-1 my-3 text-sm bg-gray-300 rounded-xl dark:bg-gray-800'>Web Developer</p>
-            <a href='' download='nameOfFile' className='flex items-center justify-center px-2 py-1 my-3 text-sm bg-gray-300 rounded-xl hover:bg-gray-400 dark:bg-gray-800 dark:hover:bg-gray-600'><AiOutlinePaperClip className='w-4' />Download Resume</a>
+            <a href='/resume/KDResume1.22.pdf' download='KyganDaoResume.pdf' className='flex items-center justify-center px-2 py-1 my-3 text-sm bg-gray-300 rounded-xl hover:bg-gray-400 dark:bg-gray-800 dark:hover:bg-gray-600'><AiOutlinePaperClip className='w-4' />Download Resume</a>
             
             <div className='flex w-9/12 mx-auto my-5 text-green-900 justify-evenly md:w-full dark:text-white'>
                 <a href='https://github.com/Kygandao' target='_blank' rel='noreferrer noopener'><AiOutlineGithub className='w-10 h-10 cursor-pointer hover:text-black' /></a>

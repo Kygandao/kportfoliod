@@ -23,7 +23,7 @@ const Navbar = () => {
     
     const [activeNav, setActiveNav] = useState<string>('')
     
-    const {pathname} = useRouter()
+    const { pathname } = useRouter()
 
     useEffect(() => {
         if(pathname === '/')setActiveNav('About Me')
