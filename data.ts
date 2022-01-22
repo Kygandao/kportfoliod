@@ -1,20 +1,20 @@
 //File contains data used to display in about me section 1:07:00 for reference
 
-import { BsAward, BsChatRightText, BsStack } from 'react-icons/Bs'
 import { DiIllustrator, DiPhotoshop } from 'react-icons/Di'
 import { SiTailwindcss, SiSpring } from 'react-icons/Si'
-import { FaReact, FaJava, FaNodeJs, FaFigma } from 'react-icons/Fa'
-import { IoLogoJavascript } from 'react-icons/Io'
+import { FaReact, FaJava, FaNodeJs, FaFigma, FaAward } from 'react-icons/Fa'
+import { IoLogoJavascript} from 'react-icons/Io'
+import { HiChatAlt } from 'react-icons/Hi'
 import { GoGraph } from 'react-icons/go'
 import { MdLightbulbOutline } from 'react-icons/md'
-import { RiTeamLine } from 'react-icons/ri'
+import { RiTeamLine, RiStackFill } from 'react-icons/ri'
 import { IOffer, ISkills } from './type'
 
 export const services:IOffer[] = [
     {
         title:'Fullstack Developmet',
         about: 'Build scalable applications using <b>React.js</b> and various <b>CSS</b> frameworks for frontend development, and <b>Express</b> and other popular frameworks for handling databases and servers.',
-        Icon: BsStack,
+        Icon: RiStackFill,
     },
     {
         title:'Project Management',
@@ -34,12 +34,12 @@ export const services:IOffer[] = [
     {
         title:'Communication',
         about: 'Exceptional verbal and written communication, delivered in a clear and concise manner.',
-        Icon: BsChatRightText,
+        Icon: HiChatAlt,
     },
     {
         title:'Professionalism',
         about: '10+ years of professional experience in more than two unique fields.',
-        Icon: BsAward,
+        Icon: FaAward,
     }
 ]
 
