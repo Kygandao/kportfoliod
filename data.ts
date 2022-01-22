@@ -1,5 +1,3 @@
-//File contains data used to display in about me section 1:07:00 for reference
-
 import { DiIllustrator, DiPhotoshop } from 'react-icons/Di'
 import { SiTailwindcss, SiSpring } from 'react-icons/Si'
 import { FaReact, FaJava, FaNodeJs, FaFigma, FaAward } from 'react-icons/Fa'
