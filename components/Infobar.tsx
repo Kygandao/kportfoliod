@@ -57,4 +57,3 @@ const Infobar = () => {
 
 export default Infobar
 
-
