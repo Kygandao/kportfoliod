@@ -21,7 +21,7 @@ export const services:IOffer[] = [
     },
     {
         title:'Creativity and Adaptabliity',
-        about: 'Unafraid learn more about what is needed to complete a task or solve a problem from a new or different way. <b>"Whatever the Stack, I will adapt"</b>.',
+        about: 'Unafraid to learn more about what is needed to complete a task or solve a problem in a new or different way. <b>"Whatever the Stack, I will adapt"</b>.',
         Icon: MdLightbulbOutline,
     },
     {
