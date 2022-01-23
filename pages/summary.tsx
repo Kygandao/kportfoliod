@@ -13,7 +13,7 @@ const summary = () => {
                             <p>Southern Methodist University - Expected March 2022</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-200 rounded-md dark:bg-gray-800'>
-                            <h5 className='my-1 font-semibold'>Boot Camp Certificate: Web Development</h5>
+                            <h5 className='my-1 font-semibold'>Web Development: Boot Camp Certificate</h5>
                             <p>University of Oregon</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-200 rounded-md dark:bg-gray-800'>
