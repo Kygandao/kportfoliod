@@ -11,3 +11,15 @@ export interface ISkills{
     level: string,
     Icon: IconType
 }
+
+export interface IProjects{
+    name: string,
+    description: string,
+    image_path: string,
+    deployed_url,
+    github_url: string,
+    category: Category[],
+    tech_tags: string[],
+}
+
+export type Category = 'React' | 'Node' | 'Express' | 'Java' | 'Spring' | 'Firebase' | 'MongoDB';

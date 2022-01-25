@@ -6,7 +6,7 @@ import { HiChatAlt } from 'react-icons/hi'
 import { GoGraph } from 'react-icons/go'
 import { MdLightbulbOutline } from 'react-icons/md'
 import { RiTeamLine, RiStackFill } from 'react-icons/ri'
-import { IOffer, ISkills } from './type'
+import { IOffer, IProjects, ISkills } from './type'
 
 export const services:IOffer[] = [
     {
@@ -89,5 +89,35 @@ export const tools:ISkills[] = [
         name: 'Figma',
         level: '50%',
         Icon: FaFigma,
+    },
+]
+
+export const projects:IProjects[] = [
+    {
+        name: 'Whiteboard',
+        description: 'This is the project description',
+        image_path: '/images/WhiteboardGreeting.png',
+        deployed_url: 'https://whiteboard2kd.netlify.app/',
+        github_url: 'https://github.com/Kygandao/whiteboard',
+        category: ['React'],
+        tech_tags: ['React']
+    },
+    {
+        name: 'Coming Soon!',
+        description: 'This project is coming soon',
+        image_path: '/images/construction.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: [],
+        tech_tags: []
+    },
+    {
+        name: 'Coming Soon!',
+        description: 'This project is coming soon',
+        image_path: '/images/construction.jpg',
+        deployed_url: '',
+        github_url: '',
+        category: [],
+        tech_tags: []
     },
 ]

@@ -11,11 +11,12 @@ function MyApp({ Component, pageProps }) {
         <div className='col-span-12 p-4 text-center bg-gray-200 rounded-sm shadow-2xl lg:col-span-3 dark:bg-gray-900'>
         <Infobar />
         </div>
-    
+        
         <div className='flex flex-col col-span-12 bg-gray-200 rounded-sm shadow-2xl lg:col-span-9 dark:bg-gray-900'>
         <Navbar />
         <Component {...pageProps} />
         </div>
+        
     
       </div> 
     </ThemeProvider>
