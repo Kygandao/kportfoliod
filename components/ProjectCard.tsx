@@ -33,13 +33,13 @@ const ProjectCard:FunctionComponent<{
             <div>
                 <img src={image_path} alt={name} className='rounded-lg'/>
                 <div className='flex justify-center my-4 space-x-2'>
-                    <a href={github_url} className='flex items-center px-3 py-1 space-x-2 text-green-900 hover:text-green-600 dark:text-white dark:hover:text-green-600'>
+                    <a href={github_url} target='_blank' rel='noreferrer noopener' className='flex items-center px-3 py-1 space-x-2 text-green-900 hover:text-green-600 dark:text-white dark:hover:text-green-600'>
                         <GrGithub />
                         <span>
                             GitHub
                         </span>
                     </a>
-                    <a href={deployed_url} className='flex items-center px-3 py-1 space-x-2 text-green-900 hover:text-green-600 dark:text-white dark:hover:text-green-600'>
+                    <a href={deployed_url} target='_blank' rel='noreferrer noopener' className='flex items-center px-3 py-1 space-x-2 text-green-900 hover:text-green-600 dark:text-white dark:hover:text-green-600'>
                         <CgWebsite />
                         <span>
                             Site
