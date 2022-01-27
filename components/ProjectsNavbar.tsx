@@ -19,12 +19,12 @@ const ProjectsNavbar:FunctionComponent<{handleProjectFilter:Function, active:str
       <div className='flex px-3 py-2 space-x-2 overscroll-x-auto'>
           <ProjectsNavbarItem value='All' {...props} />
           <ProjectsNavbarItem value='React' {...props} />
-          <ProjectsNavbarItem value='Node' {...props} />
+          {/* ADD BACK ONCE FILTER IS NEEDED <ProjectsNavbarItem value='Node' {...props} />
           <ProjectsNavbarItem value='Express' {...props} />
           <ProjectsNavbarItem value='Java' {...props} />
           <ProjectsNavbarItem value='Spring' {...props} />
           <ProjectsNavbarItem value='Firebase' {...props} />
-          <ProjectsNavbarItem value='MongoDB' {...props} />
+          <ProjectsNavbarItem value='MongoDB' {...props} /> */}
       </div>
   );
 };

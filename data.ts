@@ -108,7 +108,7 @@ export const projects:IProjects[] = [
         image_path: '/images/construction.jpg',
         deployed_url: '',
         github_url: '',
-        category: ['Java'],
+        category: [],
         tech_tags: []
     },
     {
@@ -117,7 +117,7 @@ export const projects:IProjects[] = [
         image_path: '/images/construction.jpg',
         deployed_url: '',
         github_url: '',
-        category: ['MongoDB'],
+        category: [],
         tech_tags: []
     },
 ]
