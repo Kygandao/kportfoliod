@@ -54,7 +54,7 @@ export const languages:ISkills[] = [
     },
     {
         name: 'React',
-        level: '70%',
+        level: '60%',
         Icon: FaReact,
     },
     {
@@ -77,7 +77,7 @@ export const languages:ISkills[] = [
 export const tools:ISkills[] = [
     {
         name: 'Illustrator',
-        level: '95%',
+        level: '80%',
         Icon: DiIllustrator,
     },
     {
@@ -112,7 +112,7 @@ export const projects:IProjects[] = [
         tech_tags: []
     },
     {
-        name: 'Coming Soon!',
+        name: 'Coming Soon 2!',
         description: 'This project is currently in development. Please check back later for more details!',
         image_path: '/images/construction.jpg',
         deployed_url: '',

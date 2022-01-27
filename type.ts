@@ -22,5 +22,5 @@ export interface IProjects{
     tech_tags: string[],
 }
 
-export type Category = 'React';
+export type Category = 'React' ;
 // add once filter is completed | 'Node' | 'Express' | 'Java' | 'Spring' | 'Firebase' | 'MongoDB'

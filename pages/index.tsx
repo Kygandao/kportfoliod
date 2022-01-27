@@ -1,6 +1,8 @@
 import { GetServerSidePropsContext, GetStaticPathsContext, GetStaticPropsContext } from 'next'
 import OfferCard from '../components/OfferCard'
 import { services } from '../data'
+import { motion } from 'framer-motion'
+import { animateDelayFadeUp, animateFadeUp } from '../animation'
 
 const index = () => {
 
@@ -11,15 +13,22 @@ const index = () => {
       </h5>
       <div className='p-4 mt-5 bg-gray-300 dark:bg-gray-800' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
         <h6 className='my-3 text-lg font-semibold text-green-900 font-rock dark:text-white'>What I Offer</h6>
-        <div className='grid gap-4 lg:grid-cols-2'>
+        
+        <motion.div
+        variants={animateDelayFadeUp}
+        initial='initial'
+        animate='animate'
+        className='grid gap-4 lg:grid-cols-2'>
           {
             services.map(service => (
-              <div className='bg-gray-200 rounded-md lg:col-span-1 dark:bg-gray-900' key={service.title}>
+              <motion.div 
+              variants={animateFadeUp}
+              className='bg-gray-200 rounded-md lg:col-span-1 dark:bg-gray-900' key={service.title}>
                 <OfferCard service={service}/>
-              </div>
+              </motion.div>
             ))
           }
-        </div>
+        </motion.div>
       </div>
     </div>
   )
