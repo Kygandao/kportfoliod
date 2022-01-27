@@ -4,7 +4,7 @@ import { Category } from "../type";
 
 const ProjectsNavbarItem:FunctionComponent<{value:Category | 'All', handleProjectFilter:Function}> = ({value, handleProjectFilter}) => {
     return (
-        <li onClick={() => handleProjectFilter(value)} key={value} className='text-base list-none cursor-pointer hover:text-green-800'>
+        <li onClick={() => handleProjectFilter(value)} className='text-base list-none cursor-pointer hover:text-green-800'>
             {value}
         </li>
     );
@@ -13,14 +13,14 @@ const ProjectsNavbarItem:FunctionComponent<{value:Category | 'All', handleProjec
 const ProjectsNavbar:FunctionComponent<{handleProjectFilter:Function}> = (props) => {
   return (
       <div className='flex px-3 py-2 space-x-2 overscroll-x-auto'>
-          <ProjectsNavbarItem value='All' {...props} key={'All'}/>
-          <ProjectsNavbarItem value='React' {...props} key={'React'}/>
-          <ProjectsNavbarItem value='Node' {...props} key={'Node'}/>
-          <ProjectsNavbarItem value='Express' {...props} key={'Express'}/>
-          <ProjectsNavbarItem value='Java' {...props} key={'Java'}/>
-          <ProjectsNavbarItem value='Spring' {...props} key={'Spring'}/>
-          <ProjectsNavbarItem value='Firebase' {...props} key={'Firebase'}/>
-          <ProjectsNavbarItem value='MongoDB' {...props} key={'MongoDB'}/>
+          <ProjectsNavbarItem value='All' {...props} />
+          <ProjectsNavbarItem value='React' {...props} />
+          <ProjectsNavbarItem value='Node' {...props} />
+          <ProjectsNavbarItem value='Express' {...props} />
+          <ProjectsNavbarItem value='Java' {...props} />
+          <ProjectsNavbarItem value='Spring' {...props} />
+          <ProjectsNavbarItem value='Firebase' {...props} />
+          <ProjectsNavbarItem value='MongoDB' {...props} />
       </div>
   );
 };

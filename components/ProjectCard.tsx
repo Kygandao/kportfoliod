@@ -13,7 +13,7 @@ const ProjectCard:FunctionComponent<{
         image_path,
         deployed_url,
         github_url,
-        category,
+        //category, later use of category for filter method 
         tech_tags
     }
 }) => {
