@@ -1,11 +1,28 @@
 import Bar from "../components/Bar"
 import { languages, tools } from "../data"
+import { motion } from 'framer-motion'
 
 const summary = () => {
+
+    const animationVariants = {
+        initial: {
+            opacity: 0,
+            y: 100
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+    }
+    
     return (
         <div className='px-6 py-2 '>
             <div className='grid gap-5 px-4 pt-1 bg-gray-300 md:grid-cols-2 dark:bg-gray-900' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
-                <div id='education'>
+                <motion.div
+                variants={animationVariants}
+                initial='initial'
+                animate='animate'
+                id='education'>
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Education</h5>
                     <div>
                         <div className='p-1 my-1 space-x-5 bg-gray-200 rounded-md dark:bg-gray-800'>
@@ -21,8 +38,12 @@ const summary = () => {
                             <p>The Art Institutes International Minnesota</p>
                         </div>
                     </div>
-                </div>
-                <div id='experience'>
+                </motion.div>
+                <motion.div 
+                variants={animationVariants}
+                initial='initial'
+                animate='animate'
+                id='experience'>
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Work History</h5>
                     <div>
                         <div className='p-1 my-1 space-x-5 bg-gray-200 rounded-md dark:bg-gray-800'>
@@ -34,7 +55,7 @@ const summary = () => {
                             <p>USIC, LLC 2012 January - 2016 April</p>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
 
             <div className='grid gap-5 md:grid-cols-2'>
