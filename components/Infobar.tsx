@@ -19,14 +19,8 @@ const Infobar = () => {
 
     return (
         <div>
-            <Image
-            src='/GITHUBsmpfp.png'
-            alt='profile picture'
-            width={128}
-            height={175}
-            priority
-            className='mx-auto rounded-full'
-            />
+            <Image src='/GITHUBsmpfp.png' alt='profile picture' className='mx-auto rounded-full' width={128} height={175} priority layout='intrinsic' />
+            
             <h1 className='flex items-center justify-center my-3 lg:text-2xl font-rock md:text-2xl '>
                 <span className='mr-1'>Kygan</span>
                 <span className='text-green-900 dark:text-green-700'>Dao</span>

@@ -2,7 +2,8 @@ import { FunctionComponent, useState } from "react";
 import { IProjects } from "../type";
 import { GrGithub } from 'react-icons/gr';
 import { CgWebsite } from 'react-icons/cg';
-import { CgCloseO } from 'react-icons/cg'
+import { CgCloseO } from 'react-icons/cg';
+import Image from 'next/image'
 
 const ProjectCard:FunctionComponent<{
     project:IProjects
@@ -22,16 +23,15 @@ const ProjectCard:FunctionComponent<{
     
   return (
     <div>
-        <img src={image_path} alt={name} className='cursor-pointer' onClick={() => setShowProjectDetails(true)}/>
-        <p className='my-2 text-center'>{name}</p>
+        <Image src={image_path} alt={name} onClick={() => setShowProjectDetails(true)} className='cursor-pointer' width='300' height='150' layout='responsive' />
+        <p className='my-2 text-base text-center'>{name}</p> 
 
         {
             showProjectDetails && (
 
-
         <div id='leftSide' className='absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-300 rounded-lg md:grid-cols-2 gap-x-6 dark:bg-gray-800 dark:text-white'>
             <div>
-                <img src={image_path} alt={name} className='rounded-lg'/>
+                <Image src={image_path} alt={name}  className='rounded-lg' width='300' height='150' layout='responsive'/>
                 <div className='flex justify-center my-4 space-x-2'>
                     <a href={github_url} target='_blank' rel='noreferrer noopener' className='flex items-center px-3 py-1 space-x-2 text-green-900 hover:text-green-600 dark:text-white dark:hover:text-green-600'>
                         <GrGithub />

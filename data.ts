@@ -104,7 +104,7 @@ export const projects:IProjects[] = [
     },
     {
         name: 'Coming Soon!',
-        description: 'This project is coming soon',
+        description: 'This project is currently in development. Please check back later for more details!',
         image_path: '/images/construction.jpg',
         deployed_url: '',
         github_url: '',
@@ -113,7 +113,7 @@ export const projects:IProjects[] = [
     },
     {
         name: 'Coming Soon!',
-        description: 'This project is coming soon',
+        description: 'This project is currently in development. Please check back later for more details!',
         image_path: '/images/construction.jpg',
         deployed_url: '',
         github_url: '',
