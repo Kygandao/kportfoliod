@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { useState } from "react"
-import { animateDelayFadeUp, animateFadeUp } from "../animation"
+import { animateDelayFadeUp, animateFadeUp, animateRoute } from "../animation"
 import ProjectCard from "../components/ProjectCard"
 import ProjectsNavbar from "../components/ProjectsNavbar"
 import { projects } from "../data"
@@ -22,7 +22,7 @@ const Projects = () => {
     }
     
     return (
-        <div className='p-4 px-5 py-2 overflow-y-scroll text-xl' style={{height:'65vh' }}>
+        <motion.div variants={animateRoute} initial='initial' animate='animate' exit='exit' className='p-4 px-5 py-2 overflow-y-scroll text-xl' style={{height:'65vh' }}>
             <ProjectsNavbar handleProjectFilter={handleProjectFilter} active={active} />
             
             <motion.div
@@ -41,7 +41,7 @@ const Projects = () => {
                 ))
                 }
             </motion.div>
-        </div>
+        </motion.div>
     )
 }
 

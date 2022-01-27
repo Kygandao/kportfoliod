@@ -1,14 +1,14 @@
 import Bar from "../components/Bar"
 import { languages, tools } from "../data"
 import { animate, motion } from 'framer-motion'
-import { animateFadeUp } from "../animation"
+import { animateFadeUp, animateRoute } from "../animation"
 
 const summary = () => {
 
     
     
     return (
-        <div className='px-6 py-2 '>
+        <motion.div variants={animateRoute} initial='initial' animate='animate' exit='exit' className='px-6 py-2 '>
             <div className='grid gap-5 px-4 pt-1 bg-gray-300 md:grid-cols-2 dark:bg-gray-900' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
                 <motion.div
                 variants={animateFadeUp}
@@ -72,7 +72,7 @@ const summary = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

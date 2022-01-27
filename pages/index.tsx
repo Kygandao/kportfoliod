@@ -2,12 +2,12 @@ import { GetServerSidePropsContext, GetStaticPathsContext, GetStaticPropsContext
 import OfferCard from '../components/OfferCard'
 import { services } from '../data'
 import { motion } from 'framer-motion'
-import { animateDelayFadeUp, animateFadeUp } from '../animation'
+import { animateDelayFadeUp, animateFadeUp, animateRoute } from '../animation'
 
 const index = () => {
 
   return (
-    <div className='flex flex-col px-6 pt-1'>
+    <motion.div variants={animateRoute} initial='initial' animate='animate' exit='exit' className='flex flex-col px-6 pt-1'>
       <h5 className='my-3 font-medium text-center'>Highly motivated, knowledgeable, versatile, and continually
           improving Full Stack Developer dedicated to practicing Agile Methodologies to develop high quality applications.
       </h5>
@@ -30,7 +30,7 @@ const index = () => {
           }
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
