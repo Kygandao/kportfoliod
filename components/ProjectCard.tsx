@@ -8,30 +8,35 @@ import { motion } from "framer-motion";
 import { animateDelayFadeUp, animateFadeUp } from "../animation";
 
 const ProjectCard:FunctionComponent<{
-    project:IProjects
+    project:IProjects;
+    showProjectDetails: null | number;
+    setShowProjectDetails:(id:null | number) => void
 }> = ({
     project:{
+        id,
         name,
         description,
         image_path,
         deployed_url,
         github_url,
-        //category, later use of category for filter method 
+        category, //later use of category for filtering projects
         tech_tags
-    }
+    },
+    showProjectDetails,
+    setShowProjectDetails
 }) => {
 
-    const [showProjectDetails, setShowProjectDetails] = useState(false)
+    
     
   return (
     <div>
-        <Image src={image_path} alt={name} onClick={() => setShowProjectDetails(true)} className='cursor-pointer' width='300' height='150' layout='responsive' />
+        <Image src={image_path} alt={name} onClick={() => setShowProjectDetails(id)} className='cursor-pointer' width='300' height='150' layout='responsive' />
         <p className='my-2 text-base text-center'>{name}</p> 
 
         {
-            showProjectDetails && (
+            showProjectDetails === id && (
 
-        <div id='leftSide' className='absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-300 rounded-lg md:grid-cols-2 gap-x-6 dark:bg-gray-800 dark:text-white'>
+        <div id='leftSide' className='absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-300 rounded-lg md:p-8 md:grid-cols-2 gap-x-6 dark:bg-gray-800 dark:text-white'>
             <motion.div variants={animateDelayFadeUp} initial='initial' animate='animate'>
 
                 <motion.div variants={animateFadeUp}>
@@ -67,7 +72,7 @@ const ProjectCard:FunctionComponent<{
                 }
             </motion.div>
             <button>
-                <CgCloseO size={20} className='absolute text-green-900 top-2 right-2 hover:text-green-600' onClick={() => setShowProjectDetails(false)}/>
+                <CgCloseO size={20} className='absolute text-green-900 top-2 right-2 hover:text-green-600' onClick={() => setShowProjectDetails(null)}/>
             </button>
         </motion.div>
     </div>

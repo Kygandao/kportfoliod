@@ -94,6 +94,7 @@ export const tools:ISkills[] = [
 
 export const projects:IProjects[] = [
     {
+        id: 1,
         name: 'Whiteboard',
         description: 'This Whiteboard/Drawing application was developed over the course of only a few days for the November 2021 MintBean.io JR Web Developer Hackathon. As a purely Front End application, the user should expect to be able to use this digital whiteboard like they would use a real one.',
         image_path: '/images/WhiteboardGreeting.png',
@@ -103,6 +104,7 @@ export const projects:IProjects[] = [
         tech_tags: ['React']
     },
     {
+        id: 2,
         name: 'Coming Soon!',
         description: 'This project is currently in development. Please check back later for more details!',
         image_path: '/images/construction.jpg',
@@ -112,6 +114,7 @@ export const projects:IProjects[] = [
         tech_tags: []
     },
     {
+        id: 3,
         name: 'Coming Soon 2!',
         description: 'This project is currently in development. Please check back later for more details!',
         image_path: '/images/construction.jpg',

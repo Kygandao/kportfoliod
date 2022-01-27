@@ -9,6 +9,7 @@ import { Category } from "../type"
 const Projects = () => {
     const [projectsFilter, setProjectsFilter] = useState(projects);
     const [active, setActive] = useState('All')
+    const [showProjectDetails, setShowProjectDetails] = useState<number | null>(null)
     
     const handleProjectFilter = (category:Category | 'All') => {
         if(category === 'All') {
@@ -36,7 +37,10 @@ const Projects = () => {
                     variants={animateFadeUp}
                     key={project.name}
                     className='col-span-12 p-2 bg-gray-300 rounded-lg dark:bg-gray-800 lg:col-span-4 sm:col-span-6'>
-                        <ProjectCard project={project} />
+                        <ProjectCard
+                        project={project}
+                        showProjectDetails={showProjectDetails}
+                        setShowProjectDetails={setShowProjectDetails}/>
                     </motion.div>
                 ))
                 }
