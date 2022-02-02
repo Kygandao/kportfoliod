@@ -19,8 +19,8 @@ const Bar:FunctionComponent<{
         }
     }
     return (
-        <div className='my-1 text-white bg-gray-300 rounded-full shadow-xl bg-opacity-60 dark:bg-gray-500'>
-            <motion.div id='level' className='flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-gray-800 to-green-800 dark:from-gray-600 dark:to-green-700'
+        <div className='my-1 text-white bg-gray-300 rounded-full shadow-xl bg-opacity-60 dark:bg-gray-600'>
+            <motion.div id='level' className='flex items-center px-4 py-1 bg-green-900 rounded-full dark:bg-black'
             style={{width: level}}
             variants={animationVariants}
             initial='initial'

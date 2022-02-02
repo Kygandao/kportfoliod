@@ -19,9 +19,9 @@ export interface IProjects{
     image_path: string,
     deployed_url,
     github_url: string,
-    category: Category[],
+    // category: Category[],
     tech_tags: string[],
 }
 
-export type Category = 'React' ;
+// export type Category = 'React' ;
 // add once filter is completed | 'Node' | 'Express' | 'Java' | 'Spring' | 'Firebase' | 'MongoDB'

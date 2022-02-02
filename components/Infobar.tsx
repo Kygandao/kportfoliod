@@ -22,8 +22,8 @@ const Infobar = () => {
             <Image src='/images/GITHUBsmpfp.png' alt='profile picture' className='mx-auto rounded-full' width={128} height={175} priority layout='intrinsic' />
             
             <h1 className='flex items-center justify-center my-3 lg:text-2xl font-rock md:text-2xl '>
-                <span className='mr-1'>Kygan</span>
-                <span className='text-green-900 dark:text-green-700'>Dao</span>
+                <span className='mr-1 text-white'>Kygan</span>
+                <span className='text-green-900 dark:text-white'>Dao</span>
             </h1>
             <p className='px-2 py-1 my-3 text-sm bg-gray-300 shadow-xl bg-opacity-40 rounded-xl dark:bg-black' style={{marginLeft:'-.5rem', marginRight:'-.5rem'}}>Full Stack Developer</p>
             

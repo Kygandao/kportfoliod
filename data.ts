@@ -100,8 +100,8 @@ export const projects:IProjects[] = [
         image_path: '/images/WhiteboardGreeting.png',
         deployed_url: 'https://whiteboard2kd.netlify.app/',
         github_url: 'https://github.com/Kygandao/whiteboard',
-        category: ['React'],
-        tech_tags: ['React']
+        // category: ['React'],
+        tech_tags: ['React', 'HTML Canvas', 'Tailwind CSS']
     },
     {
         id: 2,
@@ -110,7 +110,7 @@ export const projects:IProjects[] = [
         image_path: '/images/construction.jpg',
         deployed_url: '',
         github_url: '',
-        category: [],
+        // category: [],
         tech_tags: []
     },
 ]

@@ -17,15 +17,15 @@ const summary = () => {
                 id='education'>
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Education</h5>
                     <div>
-                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-gray-800 bg-opacity-60'>
+                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Cognizant ProActive Java Boot Camp</h5>
-                            <p>Southern Methodist University - Expected March 2022</p>
+                            <p>Southern Methodist University - Completion March 2022</p>
                         </div>
-                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-gray-800 bg-opacity-60'>
+                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Web Development: Boot Camp Certificate</h5>
                             <p>University of Oregon</p>
                         </div>
-                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-gray-800 bg-opacity-60'>
+                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Graphic Design</h5>
                             <p>The Art Institutes International Minnesota</p>
                         </div>
@@ -38,11 +38,11 @@ const summary = () => {
                 id='experience'>
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Work History</h5>
                     <div>
-                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-gray-800 bg-opacity-60'>
+                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Insurance Account Representative</h5>
                             <p>State Farm Insurance 2016 April - Current</p>
                         </div>
-                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-gray-800 bg-opacity-60'>
+                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Lead Utility Locator</h5>
                             <p>USIC, LLC 2012 January - 2016 April</p>
                         </div>

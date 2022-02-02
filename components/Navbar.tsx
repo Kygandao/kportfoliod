@@ -27,8 +27,8 @@ const Navbar = () => {
 
     useEffect(() => {
         if(pathname === '/')setActiveNav('About Me')
-        if(pathname === '/projects')setActiveNav('Projects')
-        if(pathname === '/summary')setActiveNav('Summary')
+        else if(pathname === '/projects')setActiveNav('Projects')
+        else if(pathname === '/summary')setActiveNav('Summary')
     }, [])
     
     return (
