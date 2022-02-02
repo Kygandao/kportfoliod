@@ -11,8 +11,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'light-background': "url('/images/background.jpg')",
-        'dark-background' : "url('/images/sunsetbackground.jpg')"
+        'light-background': "url('/images/forest.jpg')",
+        'dark-background' : "url('/images/forestBW.jpg')"
       }
     },
   },

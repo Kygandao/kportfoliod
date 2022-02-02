@@ -113,14 +113,4 @@ export const projects:IProjects[] = [
         category: [],
         tech_tags: []
     },
-    {
-        id: 3,
-        name: 'Coming Soon 2!',
-        description: 'This project is currently in development. Please check back later for more details!',
-        image_path: '/images/construction.jpg',
-        deployed_url: '',
-        github_url: '',
-        category: [],
-        tech_tags: []
-    },
 ]
