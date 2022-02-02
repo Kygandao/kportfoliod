@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import { animateDelayFadeUp, animateFadeUp, animateRoute } from "../animation"
 import ProjectCard from "../components/ProjectCard"
-import ProjectsNavbar from "../components/ProjectsNavbar"
+// import ProjectsNavbar from "../components/ProjectsNavbar"
 import { projects } from "../data"
 // import { Category } from "../type"
 
