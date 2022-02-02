@@ -11,12 +11,15 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'trees': "url('/background.jpg')"
+        'light-background': "url('/images/background.jpg')",
+        'dark-background' : "url('/images/sunsetbackground.jpg')"
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundImage: ['dark']
+    },
   },
   plugins: [],
 }

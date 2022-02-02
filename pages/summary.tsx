@@ -9,7 +9,7 @@ const summary = () => {
     
     return (
         <motion.div variants={animateRoute} initial='initial' animate='animate' exit='exit' className='px-6 py-2 '>
-            <div className='grid gap-5 px-4 pt-1 bg-gray-300 md:grid-cols-2 dark:bg-gray-900' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
+            <div className='grid gap-5 px-4 pt-1 md:grid-cols-2 dark:bg-gray-900 dark:bg-opacity-0' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
                 <motion.div
                 variants={animateFadeUp}
                 initial='initial'

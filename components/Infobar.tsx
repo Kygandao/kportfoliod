@@ -39,17 +39,16 @@ const Infobar = () => {
             </div>
             
             <div className='flex w-9/12 mx-auto my-5 text-green-900 justify-evenly md:w-full dark:text-white'>
-                <a href='https://github.com/Kygandao' target='_blank' rel='noreferrer noopener'><AiOutlineGithub className='w-10 h-10 cursor-pointer hover:text-gray-800 dark:hover:text-green-900' /></a>
-                <a href='https://www.linkedin.com/in/kygan-dao/' target='_blank' rel='noreferrer noopener'><AiOutlineLinkedin className='w-10 h-10 cursor-pointer hover:text-gray-800 dark:hover:text-green-900' /></a>
+                <a href='https://github.com/Kygandao' target='_blank' rel='noreferrer noopener'><AiOutlineGithub className='w-10 h-10 cursor-pointer hover:text-green-600 dark:hover:text-green-900' /></a>
+                <a href='https://www.linkedin.com/in/kygan-dao/' target='_blank' rel='noreferrer noopener'><AiOutlineLinkedin className='w-10 h-10 cursor-pointer hover:text-green-600 dark:hover:text-green-900' /></a>
             </div>
             
             
             {/*click to open system email */}
-            <button onClick={sendEmail} className='w-8/12 px-3 py-1 my-1 text-white bg-gradient-to-r from-gray-800 to-green-900 rounded-xl hover:text-gray-400 hover:bg-black'>Email Me</button>
-            <button onClick={changeTheme} className='w-8/12 px-3 py-1 my-1 text-white bg-gradient-to-r from-gray-800 to-green-900 rounded-xl hover:text-gray-400'>Change Theme</button>
+            <button onClick={sendEmail} className='w-8/12 px-3 py-1 my-1 text-white bg-green-900 rounded-xl hover:bg-green-700'>Email Me</button>
+            <button onClick={changeTheme} className='w-8/12 px-3 py-1 my-1 text-white bg-green-900 rounded-xl hover:bg-green-700'>Change Theme</button>
         </div>
     )
 }
 
 export default Infobar
-
