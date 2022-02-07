@@ -43,7 +43,7 @@ const Infobar = () => {
             <div className='flex flex-col items-center'>
             <button onClick={sendEmail} className='w-8/12 px-3 py-1 my-1 text-white bg-green-900 shadow-xl rounded-xl hover:bg-green-700 dark:bg-black dark:hover:bg-gray-800'>Email Me</button>
             
-            <a href='/resume/KDResume1.22.pdf' download='KyganDaoResume.pdf' className='w-8/12 px-3 py-1 my-1 text-white bg-green-900 shadow-xl rounded-xl hover:bg-green-700 dark:bg-black dark:hover:bg-gray-800'>Download Resume</a>
+            <a href='/resume/KyganDaoResume.pdf' download='KyganDaoResume.pdf' className='w-8/12 px-3 py-1 my-1 text-white bg-green-900 shadow-xl rounded-xl hover:bg-green-700 dark:bg-black dark:hover:bg-gray-800'>Download Resume</a>
             
             <button onClick={changeTheme} className='w-8/12 px-3 py-1 my-1 text-white bg-green-900 shadow-xl rounded-xl hover:bg-green-700 dark:bg-black dark:hover:bg-gray-800'>Change Theme</button>
             </div>
