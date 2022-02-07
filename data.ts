@@ -100,17 +100,17 @@ export const projects:IProjects[] = [
         image_path: '/images/WhiteboardGreeting.png',
         deployed_url: 'https://whiteboard2kd.netlify.app/',
         github_url: 'https://github.com/Kygandao/whiteboard',
-        // category: ['React'],
+        // category: [],
         tech_tags: ['React', 'HTML Canvas', 'Tailwind CSS']
     },
     {
         id: 2,
-        name: 'Coming Soon!',
-        description: 'This project is currently in development. Please check back later for more details!',
-        image_path: '/images/construction.jpg',
-        deployed_url: '',
-        github_url: '',
+        name: 'The Wild Post',
+        description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers.',
+        image_path: '/images/WildPostss.png',
+        deployed_url: 'https://the-wild-post.netlify.app/',
+        github_url: 'https://github.com/Kygandao/the-wild-post',
         // category: [],
-        tech_tags: []
+        tech_tags: ['React', 'NextJS', 'GraphQL', 'GraphCMS', 'Tailwind CSS']
     },
 ]
