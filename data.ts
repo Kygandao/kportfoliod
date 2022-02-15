@@ -64,12 +64,12 @@ export const languages:ISkills[] = [
     },
     {
         name: 'Java',
-        level: '25%',
+        level: '50%',
         Icon: FaJava,
     },
     {
         name: 'Spring',
-        level: '25%',
+        level: '50%',
         Icon: SiSpring,
     },
 ]
