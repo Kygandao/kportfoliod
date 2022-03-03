@@ -44,12 +44,12 @@ export const services:IOffer[] = [
 export const languages:ISkills[] = [
     {
         name: 'JavaScript',
-        level: '40%',
+        level: '50%',
         Icon: IoLogoJavascript,
     },
     {
         name: 'Node',
-        level: '40%',
+        level: '50%',
         Icon: FaNodeJs,
     },
     {
@@ -64,12 +64,12 @@ export const languages:ISkills[] = [
     },
     {
         name: 'Java',
-        level: '60%',
+        level: '70%',
         Icon: FaJava,
     },
     {
         name: 'Spring',
-        level: '60%',
+        level: '70%',
         Icon: SiSpring,
     },
 ]
