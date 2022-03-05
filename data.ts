@@ -1,29 +1,27 @@
-import { DiIllustrator, DiPhotoshop } from 'react-icons/di'
+import { DiIllustrator } from 'react-icons/di'
 import { SiTailwindcss, SiSpring, SiPostman, SiNetlify } from 'react-icons/si'
 import { FaReact, FaJava, FaNodeJs, FaAward } from 'react-icons/fa'
 import { GrMysql, GrHeroku } from 'react-icons/gr'
 import { IoLogoJavascript} from 'react-icons/io'
-import { HiChatAlt } from 'react-icons/hi'
-import { GoGraph } from 'react-icons/go'
-import { MdLightbulbOutline } from 'react-icons/md'
-import { RiTeamLine, RiStackFill } from 'react-icons/ri'
+import { HiChatAlt, HiLightBulb } from 'react-icons/hi'
+import { RiTeamLine, RiStackFill, RiBugFill } from 'react-icons/ri'
 import { IOffer, IProjects, ISkills } from './type'
 
 export const services:IOffer[] = [
     {
         title:'Fullstack Developmet',
-        about: 'Build scalable applications using <b>React.js</b> and various <b>CSS</b> frameworks for frontend development, and <b>Express</b> and other popular frameworks for handling databases and servers.',
+        about: 'Build scalable applications using <b>Java</b> and <b>Spring Boot</b> for back-end development, <b>JavaScript</b> and <b>React</b> and various <b>CSS</b> frameworks for frontend development. <b>MySQL</b>, <b>GraphQL</b>, <b>Express</b> and other popular frameworks for handling databases and servers.',
         Icon: RiStackFill,
     },
     {
-        title:'Project Management',
-        about: 'Identify needs and allocate resources to effectively meet goals. Authenticity with a <b>"people"</b> approach which inspires my team and instills confidence.',
-        Icon: GoGraph,
+        title:'Debugging & Troubleshooting',
+        about: 'Exersize extreme patience to use analytical and research skills to detect, remove, and correct errors from existing code and avoid errors in new code.',
+        Icon: RiBugFill,
     },
     {
         title:'Creativity and Adaptabliity',
         about: 'Unafraid to learn more about what is needed to complete a task or solve a problem in a new or different way. <b>"Whatever the Stack, I will adapt"</b>.',
-        Icon: MdLightbulbOutline,
+        Icon: HiLightBulb,
     },
     {
         title:'Collaborative Mindset',
@@ -31,13 +29,13 @@ export const services:IOffer[] = [
         Icon: RiTeamLine,
     },
     {
-        title:'Communication',
+        title:'Clear Communication',
         about: 'Exceptional verbal and written communication, delivered in a clear and concise manner.',
         Icon: HiChatAlt,
     },
     {
         title:'Professionalism',
-        about: '10+ years of professional experience in more than two unique fields.',
+        about: '10+ years of professional experience in two unique fields.',
         Icon: FaAward,
     }
 ]
@@ -45,7 +43,7 @@ export const services:IOffer[] = [
 export const languages:ISkills[] = [
     {
         name: 'Java',
-        level: '70%',
+        level: '75%',
         Icon: FaJava,
     },
     {
@@ -68,17 +66,16 @@ export const languages:ISkills[] = [
         level: '60%',
         Icon: FaReact,
     },
-    {
-        name: 'Tailwind CSS',
-        level: '80%',
-        Icon: SiTailwindcss,
-    },
 
 
 ]
 
 export const tools:ISkills[] = [
-
+    {
+        name: 'Tailwind CSS',
+        level: '80%',
+        Icon: SiTailwindcss,
+    },
     {
         name: 'Heroku',
         level: '70%',
@@ -103,11 +100,6 @@ export const tools:ISkills[] = [
         name: ' Adobe Illustrator',
         level: '80%',
         Icon: DiIllustrator,
-    },
-    {
-        name: 'Adobe Photoshop',
-        level: '75%',
-        Icon: DiPhotoshop,
     },
     
 ]
