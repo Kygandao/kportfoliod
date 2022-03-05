@@ -18,16 +18,16 @@ const summary = () => {
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Education</h5>
                     <div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
-                            <h5 className='my-1 font-semibold'>ProActive Java Boot Camp</h5>
-                            <p>Southern Methodist University</p>
+                            <h5 className='my-1 font-semibold'>Java Development: Boot Camp Certificate</h5>
+                            <p className='italic'>Southern Methodist University</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Web Development: Boot Camp Certificate</h5>
-                            <p>University of Oregon</p>
+                            <p className='italic'>University of Oregon</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
-                            <h5 className='my-1 font-semibold'>Graphic Design</h5>
-                            <p>The Art Institutes International Minnesota</p>
+                            <h5 className='my-1 font-semibold'>Graphic Design: Bachelor of Science</h5>
+                            <p className='italic'>The Art Institutes International Minnesota</p>
                         </div>
                     </div>
                 </motion.div>
@@ -40,11 +40,13 @@ const summary = () => {
                     <div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Insurance Account Representative</h5>
-                            <p>State Farm Insurance 2016 April - Current</p>
+                            <p className='italic'>State Farm Insurance: April 2016 - Current</p>
+                            <p className='text-xs'>Increased customer satisfaction ratings through proactive and actionable resolutions to questions and concerns regarding Insurance.</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Lead Utility Locator</h5>
-                            <p>USIC, LLC 2012 January - 2016 April</p>
+                            <p className='italic'>USIC, LLC: January 2012 - April 2016</p>
+                            <p className='text-xs'>Located, marked, and documented critical underground infrastructure prior to excavation.</p>
                         </div>
                     </div>
                 </motion.div>

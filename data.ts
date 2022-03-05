@@ -10,7 +10,7 @@ import { IOffer, IProjects, ISkills } from './type'
 export const services:IOffer[] = [
     {
         title:'Fullstack Developmet',
-        about: 'Build scalable applications using <b>Java</b> and <b>Spring Boot</b> for back-end development, <b>JavaScript</b> and <b>React</b> and various <b>CSS</b> frameworks for frontend development. <b>MySQL</b>, <b>GraphQL</b>, <b>Express</b> and other popular frameworks for handling databases and servers.',
+        about: 'Build scalable applications using <b>Java</b> and <b>Spring Boot</b> for back-end development, <b>JavaScript</b>, <b>React</b>, and various <b>CSS</b> frameworks for frontend development. <b>MySQL</b>, <b>GraphQL</b>, <b>Express</b> for handling databases and servers.',
         Icon: RiStackFill,
     },
     {
@@ -20,7 +20,7 @@ export const services:IOffer[] = [
     },
     {
         title:'Creativity and Adaptabliity',
-        about: 'Unafraid to learn more about what is needed to complete a task or solve a problem in a new or different way. <b>"Whatever the Stack, I will adapt"</b>.',
+        about: 'Unafraid to learn more about what is needed to complete a task or solve a problem in a new or different way. Resilience and resourcefulness to implement what is learned.',
         Icon: HiLightBulb,
     },
     {
