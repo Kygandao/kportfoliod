@@ -1,6 +1,7 @@
 import { DiIllustrator, DiPhotoshop } from 'react-icons/di'
-import { SiTailwindcss, SiSpring } from 'react-icons/si'
-import { FaReact, FaJava, FaNodeJs, FaFigma, FaAward } from 'react-icons/fa'
+import { SiTailwindcss, SiSpring, SiPostman, SiNetlify } from 'react-icons/si'
+import { FaReact, FaJava, FaNodeJs, FaAward } from 'react-icons/fa'
+import { GrMysql, GrHeroku } from 'react-icons/gr'
 import { IoLogoJavascript} from 'react-icons/io'
 import { HiChatAlt } from 'react-icons/hi'
 import { GoGraph } from 'react-icons/go'
@@ -43,26 +44,6 @@ export const services:IOffer[] = [
 
 export const languages:ISkills[] = [
     {
-        name: 'JavaScript',
-        level: '50%',
-        Icon: IoLogoJavascript,
-    },
-    {
-        name: 'Node',
-        level: '50%',
-        Icon: FaNodeJs,
-    },
-    {
-        name: 'React',
-        level: '60%',
-        Icon: FaReact,
-    },
-    {
-        name: 'Tailwind',
-        level: '80%',
-        Icon: SiTailwindcss,
-    },
-    {
         name: 'Java',
         level: '70%',
         Icon: FaJava,
@@ -72,45 +53,85 @@ export const languages:ISkills[] = [
         level: '70%',
         Icon: SiSpring,
     },
+    {
+        name: 'Node',
+        level: '50%',
+        Icon: FaNodeJs,
+    },
+    {
+        name: 'JavaScript',
+        level: '50%',
+        Icon: IoLogoJavascript,
+    },
+    {
+        name: 'React',
+        level: '60%',
+        Icon: FaReact,
+    },
+    {
+        name: 'Tailwind CSS',
+        level: '80%',
+        Icon: SiTailwindcss,
+    },
+
+
 ]
 
 export const tools:ISkills[] = [
+
     {
-        name: 'Illustrator',
+        name: 'Heroku',
+        level: '70%',
+        Icon: GrHeroku,
+    },
+    {
+        name: 'Netlify',
+        level: '90%',
+        Icon: SiNetlify,
+    },
+    {
+        name: 'MySQL',
+        level: '40%',
+        Icon: GrMysql,
+    },
+    {
+        name: 'Postman',
+        level: '50%',
+        Icon: SiPostman,
+    },
+    {
+        name: ' Adobe Illustrator',
         level: '80%',
         Icon: DiIllustrator,
     },
     {
-        name: 'Photoshop',
+        name: 'Adobe Photoshop',
         level: '75%',
         Icon: DiPhotoshop,
     },
-    {
-        name: 'Figma',
-        level: '50%',
-        Icon: FaFigma,
-    },
+    
 ]
 
 export const projects:IProjects[] = [
     {
         id: 1,
+        name: 'The Wild Post',
+        description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers. Posts are handled using GraphCMS to allow people of all skill levels to manage content.',
+        image_path: '/images/WildPostss.png',
+        deployed_url: 'https://the-wild-post.netlify.app/',
+        github_url: 'https://github.com/Kygandao/the-wild-post',
+        // category: [],
+        tech_tags: ['JavaScript', 'React', 'NextJS', 'GraphQL', 'GraphCMS', 'Tailwind CSS']
+    },
+    {
+        id: 2,
         name: 'Whiteboard',
         description: 'This Whiteboard/Drawing application was developed over the course of only a few days for the November 2021 MintBean.io JR Web Developer Hackathon. As a purely Front End application, the user should expect to be able to use this digital whiteboard like they would use a real one.',
         image_path: '/images/WhiteboardGreeting.png',
         deployed_url: 'https://whiteboard2kd.netlify.app/',
         github_url: 'https://github.com/Kygandao/whiteboard',
         // category: [],
-        tech_tags: ['React', 'HTML Canvas', 'Tailwind CSS']
+        tech_tags: ['JavaScript', 'React', 'HTML Canvas', 'Tailwind CSS', 'Netlify']
     },
-    {
-        id: 2,
-        name: 'The Wild Post',
-        description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers.',
-        image_path: '/images/WildPostss.png',
-        deployed_url: 'https://the-wild-post.netlify.app/',
-        github_url: 'https://github.com/Kygandao/the-wild-post',
-        // category: [],
-        tech_tags: ['React', 'NextJS', 'GraphQL', 'GraphCMS', 'Tailwind CSS']
-    },
+    
 ]
