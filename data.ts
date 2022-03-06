@@ -1,4 +1,4 @@
-import { DiIllustrator } from 'react-icons/di'
+
 import { SiTailwindcss, SiSpring, SiPostman, SiNetlify } from 'react-icons/si'
 import { FaReact, FaJava, FaNodeJs, FaAward } from 'react-icons/fa'
 import { GrMysql, GrHeroku } from 'react-icons/gr'
@@ -10,12 +10,12 @@ import { IOffer, IProjects, ISkills } from './type'
 export const services:IOffer[] = [
     {
         title:'Fullstack Developmet',
-        about: 'Build scalable applications using <b>Java</b> and <b>Spring Boot</b> for back-end development, <b>JavaScript</b>, <b>React</b>, and various <b>CSS</b> frameworks for frontend development. <b>MySQL</b>, <b>GraphQL</b>, <b>Express</b> for handling databases and servers.',
+        about: 'Build scalable applications using <b>Java</b> and <b>Spring Boot</b> for back-end development, <b>JavaScript</b>, <b>React</b>, and various <b>CSS</b> frameworks for frontend development. Use <b>MySQL</b>, <b>GraphQL</b>, <b>Express</b> for databases and servers.',
         Icon: RiStackFill,
     },
     {
         title:'Debugging & Troubleshooting',
-        about: 'Exersize extreme patience to use analytical and research skills to detect, remove, and correct errors from existing code and avoid errors in new code.',
+        about: 'Exersize extreme patience to use <b>critical thinking</b> and analytical and research skills to detect, remove, and correct errors from existing code and avoid errors in new code.',
         Icon: RiBugFill,
     },
     {
@@ -30,12 +30,12 @@ export const services:IOffer[] = [
     },
     {
         title:'Clear Communication',
-        about: 'Exceptional verbal and written communication, delivered in a clear and concise manner.',
+        about: 'Exceptional verbal and written communication delivered in a clear and concise manner.',
         Icon: HiChatAlt,
     },
     {
         title:'Professionalism',
-        about: '10+ years of professional experience in two unique fields.',
+        about: '10+ years of professional experience with a talent for fostering positive relationships with colleagues and clients',
         Icon: FaAward,
     }
 ]
@@ -96,11 +96,6 @@ export const tools:ISkills[] = [
         level: '50%',
         Icon: SiPostman,
     },
-    {
-        name: ' Adobe Illustrator',
-        level: '80%',
-        Icon: DiIllustrator,
-    },
     
 ]
 
@@ -108,7 +103,7 @@ export const projects:IProjects[] = [
     {
         id: 1,
         name: 'The Wild Post',
-        description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers. Posts are handled using GraphCMS to allow people of all skill levels to manage content.',
+        description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers. Content is handled using GraphCMS to allow people of all skill levels to manage content.',
         image_path: '/images/WildPostss.png',
         deployed_url: 'https://the-wild-post.netlify.app/',
         github_url: 'https://github.com/Kygandao/the-wild-post',

@@ -8,9 +8,9 @@ const index = () => {
 
   return (
     <motion.div variants={animateRoute} initial='initial' animate='animate' exit='exit' className='flex flex-col px-6 pt-1'>
-      <h5 className='my-3 font-medium text-center'>Tech Savvy and analytical professional with hands-on experience in design, installation, testing, and maintenance of software systems.
+      <h5 className='my-3 text-lg text-center'>Tech Savvy and analytical professional with hands-on experience in design, installation, testing, and maintenance of software systems.
       </h5>
-      <div className='p-4 mt-5' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
+      <div className='p-4' style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
         <h6 className='my-3 text-lg font-semibold text-green-900 font-rock dark:text-white'>What I Offer</h6>
         
         <motion.div
