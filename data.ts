@@ -102,6 +102,16 @@ export const tools:ISkills[] = [
 export const projects:IProjects[] = [
     {
         id: 1,
+        name: 'Movies Watchlist',
+        description: 'Keep track of the movies you have watched and the ones you want to with this helper app. You can search for movies, add/remove from your list, and see movie information. To access app demo: Username = DEMO, Password = SuperSecretPassword0',
+        image_path: '/images/Movies.png',
+        deployed_url: 'https://gda1c831b3b2974-db202203301058.adb.us-ashburn-1.oraclecloudapps.com/ords/r/demo/movies-watchlist/login?session=103422968787885',
+        github_url: 'https://gda1c831b3b2974-db202203301058.adb.us-ashburn-1.oraclecloudapps.com/ords/r/demo/movies-watchlist/login?session=103422968787885',
+        // category: [],
+        tech_tags: ['Oracle Apex', 'SQL', 'CSS', 'HTTP', 'Javascript']
+    },
+    {
+        id: 2,
         name: 'The Wild Post',
         description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers. Content is handled using GraphCMS to allow people of all skill levels to manage content.',
         image_path: '/images/WildPostss.png',
@@ -111,7 +121,7 @@ export const projects:IProjects[] = [
         tech_tags: ['JavaScript', 'React', 'NextJS', 'GraphQL', 'GraphCMS', 'Tailwind CSS']
     },
     {
-        id: 2,
+        id: 3,
         name: 'Whiteboard',
         description: 'This Whiteboard/Drawing application was developed over the course of only a few days for the November 2021 MintBean.io JR Web Developer Hackathon. As a purely Front End application, the user should expect to be able to use this digital whiteboard like they would use a real one.',
         image_path: '/images/WhiteboardGreeting.png',
@@ -121,7 +131,7 @@ export const projects:IProjects[] = [
         tech_tags: ['JavaScript', 'React', 'HTML Canvas', 'Tailwind CSS', 'Netlify']
     },
     {
-        id: 3,
+        id: 4,
         name: 'Lunar New Year Poster',
         description: 'Tasked to create a unique Small Print poster to inform viewers of the day of the event for a Lunar New Year celebration at a French Immersion school. Full print can be found by clicking Site.',
         image_path: '/images/LunarNewYearPoster.png',
