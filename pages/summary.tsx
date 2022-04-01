@@ -18,15 +18,15 @@ const summary = () => {
                     <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Education</h5>
                     <div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
-                            <h5 className='my-1 font-semibold'>Java Development: Boot Camp Certificate</h5>
+                            <h5 className='my-1 font-semibold'>Java Development</h5>
                             <p className='italic'>Southern Methodist University</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
-                            <h5 className='my-1 font-semibold'>Web Development: Boot Camp Certificate</h5>
+                            <h5 className='my-1 font-semibold'>Web Development</h5>
                             <p className='italic'>University of Oregon</p>
                         </div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
-                            <h5 className='my-1 font-semibold'>Graphic Design: Bachelor of Science</h5>
+                            <h5 className='my-1 font-semibold'>Graphic Design</h5>
                             <p className='italic'>The Art Institutes International Minnesota</p>
                         </div>
                     </div>
