@@ -130,15 +130,15 @@ export const projects:IProjects[] = [
         // category: [],
         tech_tags: ['JavaScript', 'React', 'HTML Canvas', 'Tailwind CSS', 'Netlify']
     },
-    {
-        id: 4,
-        name: 'Lunar New Year Poster',
-        description: 'Tasked to create a unique Small Print poster to inform viewers of the day of the event for a Lunar New Year celebration at a French Immersion school. Full print can be found by clicking Site.',
-        image_path: '/images/LunarNewYearPoster.png',
-        deployed_url: 'https://drive.google.com/file/d/1rmAM0CsvwVGo_oNuUvukeeRVr5BplGoU/view?usp=sharing',
-        github_url: '',
-        // category: [],
-        tech_tags: ['Adobe Illustrator']
-    },
+    // {
+    //     id: 4,
+    //     name: 'Lunar New Year Poster',
+    //     description: 'Tasked to create a unique Small Print poster to inform viewers of the day of the event for a Lunar New Year celebration at a French Immersion school. Full print can be found by clicking Site.',
+    //     image_path: '/images/LunarNewYearPoster.png',
+    //     deployed_url: 'https://drive.google.com/file/d/1rmAM0CsvwVGo_oNuUvukeeRVr5BplGoU/view?usp=sharing',
+    //     github_url: '',
+    //     // category: [],
+    //     tech_tags: ['Adobe Illustrator']
+    // },
     
 ]
