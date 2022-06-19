@@ -36,22 +36,24 @@ const summary = () => {
                 initial='initial'
                 animate='animate'
                 id='experience'>
-                    <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Work History</h5>
+                    <h5 className='my-2 text-lg font-semibold text-green-900 font-rock dark:text-white'>Career Experience</h5>
                     <div>
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
+                            <h5 className='my-1 font-semibold'>Software Development Intern</h5>
+                            <p className='italic'>The Toro Company: May 2022 - Current</p>
+                        </div> 
+                        
+                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Insurance Account Representative</h5>
-                            <p className='italic'>State Farm Insurance: April 2016 - Current</p>
+                            <p className='italic'>State Farm Insurance: April 2016 - April 2022</p>
                         </div>
 
-                        <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
-                            <h5 className='my-1 font-semibold'>Digital Graphics & Print Designer</h5>
-                            <p className='italic'>Kygan Dao Art: April 2013 - Current</p>
-                        </div>
-                        
                         <div className='p-1 my-1 space-x-5 bg-gray-300 rounded-md shadow-xl dark:bg-black bg-opacity-60'>
                             <h5 className='my-1 font-semibold'>Lead Utility Locator</h5>
                             <p className='italic'>USIC, LLC: January 2012 - April 2016</p>
                         </div>
+                        
+                    
                     </div>
                 </motion.div>
             </div>

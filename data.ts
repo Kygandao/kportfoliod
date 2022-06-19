@@ -1,8 +1,7 @@
 
 import { SiTailwindcss, SiSpring, SiPostman, SiNetlify } from 'react-icons/si'
-import { FaReact, FaJava, FaNodeJs, FaAward } from 'react-icons/fa'
+import { FaReact, FaJava, FaAward, FaMicrosoft } from 'react-icons/fa'
 import { GrMysql, GrHeroku } from 'react-icons/gr'
-import { IoLogoJavascript} from 'react-icons/io'
 import { HiChatAlt, HiLightBulb } from 'react-icons/hi'
 import { RiTeamLine, RiStackFill, RiBugFill } from 'react-icons/ri'
 import { IOffer, IProjects, ISkills } from './type'
@@ -52,14 +51,14 @@ export const languages:ISkills[] = [
         Icon: SiSpring,
     },
     {
-        name: 'Node',
-        level: '50%',
-        Icon: FaNodeJs,
+        name: 'C#',
+        level: '40%',
+        Icon: FaMicrosoft,
     },
     {
-        name: 'JavaScript',
-        level: '50%',
-        Icon: IoLogoJavascript,
+        name: '.NET',
+        level: '40%',
+        Icon: FaMicrosoft,
     },
     {
         name: 'React',
@@ -92,26 +91,17 @@ export const tools:ISkills[] = [
         Icon: GrMysql,
     },
     {
-        name: 'Postman',
-        level: '50%',
-        Icon: SiPostman,
+        name: 'Microsoft Azure',
+        level: '40%',
+        Icon: FaMicrosoft,
     },
     
 ]
 
 export const projects:IProjects[] = [
+    
     {
         id: 1,
-        name: 'Movies Watchlist',
-        description: 'Keep track of the movies you have watched and the ones you want to with this helper app. You can search for movies, add/remove from your list, and see movie information. To access app demo: Username = DEMO, Password = SuperSecretPassword0',
-        image_path: '/images/Movies.png',
-        deployed_url: 'https://gda1c831b3b2974-db202203301058.adb.us-ashburn-1.oraclecloudapps.com/ords/r/demo/movies-watchlist/login?session=103422968787885',
-        github_url: 'https://gda1c831b3b2974-db202203301058.adb.us-ashburn-1.oraclecloudapps.com/ords/r/demo/movies-watchlist/login?session=103422968787885',
-        // category: [],
-        tech_tags: ['Oracle Apex', 'SQL', 'CSS', 'HTTP', 'Javascript']
-    },
-    {
-        id: 2,
         name: 'The Wild Post',
         description: 'The Wild blog for all things outdoors! This blog site was developed using NextJS, React, and GraphQL to serve currated outdoor content to its readers. Content is handled using GraphCMS to allow people of all skill levels to manage content.',
         image_path: '/images/WildPostss.png',
@@ -121,7 +111,7 @@ export const projects:IProjects[] = [
         tech_tags: ['JavaScript', 'React', 'NextJS', 'GraphQL', 'GraphCMS', 'Tailwind CSS']
     },
     {
-        id: 3,
+        id: 2,
         name: 'Whiteboard',
         description: 'This Whiteboard/Drawing application was developed over the course of only a few days for the November 2021 MintBean.io JR Web Developer Hackathon. As a purely Front End application, the user should expect to be able to use this digital whiteboard like they would use a real one.',
         image_path: '/images/WhiteboardGreeting.png',
